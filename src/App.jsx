@@ -1,6 +1,6 @@
 import { Routes, Route, Router } from 'react-router-dom';
 import Meals from './Components/Meals';
-import Details from './Components/details';
+import Details from './Components/Details';
 import Header from './Components/Header';
 import HotItem from './Components/HotItem';
 import { CartContextProvider } from './Components/store/cartContext';
