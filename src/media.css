@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1700px) {
+    /* 1600 */ }
+
+
+@media only screen and (max-width: 1500px) {
+    /* 1366 */  
+
+    .categories-section .swiper-button-next {
+    right: 5%;
+}
+.categories-section .swiper-button-prev {
+    left: 5%;
+}
+
+.food-gallery-section .swiper-button-prev {
+    font-size: 45px;
+    left: 8%;}
+.food-gallery-section .swiper-button-next {
+    font-size: 45px;
+    right: 8%;}
+}
+
+
+@media only screen and (max-width: 1300px) {
+    /* 1280 */  }
+@media only screen and (max-width: 1279px) {
+    /* 1024 */ }
+@media only screen and (max-width: 1023px) {
+    /* 768 */  }
+
+@media only screen and (max-width: 700px) {
+    /* 360 */ }

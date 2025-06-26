@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+:root{
+  --barlow: "Barlow Condensed", sans-serif;  
+
+  --white-clr:#FFFFFF;
+  --black-clr:#2E2E2E;
+  --gray-clr:#707070;
+  --dark-gray-clr:#292929;
+
+  --blue-clr:#C5DAF4;
+  --light-green-clr:#D6EDE5;
+  --green-clr:#DDF1BC;
+  --purple-clr:#D6D2F3;
+  --light-orange-clr:#F2DDD8;
+  --yellow-clr:#F1E6C8;
+  --light-blue-clr:#E8F7FF;
+
+  --dark-orange-clr:#F88329;
+  --navy-blue-clr:#0F5F80;
+  --red-clr:#F4C5CD;
+
+  --tr-bg-clr:#F5F5F5;
+
+  --font-108: clamp(60px, 6vw, 108px);
+  --font-103: clamp(25px, 5.9vw, 103px);
+  --font-70: clamp(20px, 4vw, 70px);
+  --font-36: clamp(20px, 2vw, 36px);
+  --font-48: clamp(24px, 2.5vw, 48px);
+   --font-51: clamp(20px, 2.6vw, 51px);
+  --font-49: clamp(20px, 2.6vw, 49px);
+  --font-43: clamp(18px, 2.3vw, 43px);
+  --font-33: clamp(16px, 2.1vw, 33px);
+  --font-28: clamp(14px, 1.5vw, 28px);
+  --font-27: clamp(14px, 1.4vw, 27px);
+  --font-26: clamp(14px, 1.4vw, 26px);
+  --font-24: clamp(15px, 1.4vw, 24px);
+    --font-23: clamp(15px, 1.4vw, 23px);
+  --font-22: clamp(16px, 1.2vw, 22px);
+  --font-21: clamp(14px, 1.1vw, 21px);
+  --font-20: clamp(16px, 1.2vw, 20px);
+  --font-18: clamp(14px, 1.15vw, 18px);
+  --font-17: clamp(13px, 1.16vw, 17px);
+
+  --gap-155:clamp(60px, 11vw, 155px);
+  --gap-180: clamp(50px, 5vw, 180px);
+  --gap-114: clamp(60px, 6.7vw, 114px);
+  --gap-95: clamp(20px, 6vw, 95px);
+  --gap-89: clamp(40px, 4vw, 89px);
+  --gap-84: clamp(40px, 4vw, 84px);
+  --gap-75: clamp(25px, 4vw, 75px);
+  --gap-71: clamp(20px, 3.3vw, 71px);
+  --gap-65:clamp(25px, 3.4vw, 65px);
+  --gap-60: clamp(20px, 3.2vw, 60px);
+  --gap-54: clamp(25px, 3vw, 54px);
+  --gap-50: clamp(20px, 2.7vw, 50px);
+  --gap-47:clamp(24px, 2.4vw, 47px);
+  --gap-40: clamp(18px, 2.1vw, 40px);
+  --gap-35: clamp(16px, 2.1vw, 35px);
+  --gap-30: clamp(14px, 1.4vw, 30px);
+  --gap-23: clamp(12px, 1.3vw, 23px);
+  --gap-26: clamp(18px, 1.3vw, 26px);
+  --gap-20: clamp(12px, 1.2vw, 20px);
+  --gap-13: clamp(10px, 1.1vw, 13px);
+  --gap-10: clamp(8px, 1vw, 10px);
+
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--barlow);
+    font-weight: normal;
+}
+
+.bold{font-weight: 500;}
+.regular{font-weight: 400;}
+.semibold{font-weight: 600;}
+
+img{max-width: 100%;}
+
+.heading01{font-size: var(--font-108); color: var(--white-clr);line-height: 1; font-weight: 600; text-transform: capitalize;}
+.heading48{color: var(--navy-blue-clr); font-size: var(--font-48); line-height: 1.1;font-weight: 500; }
+.heading02{font-family: var(--jost); color:var(--black-clr); font-size: var(--font-48); font-weight: 500; margin: 1rem 0; text-transform: capitalize;}
+.heading03{font-family: var(--jost); color:var(--black-clr); font-size: var(--font-36); font-weight: 600; margin: 1rem 0; text-transform: capitalize;}
+
+
+.para23{ font-size: var(--font-23); line-height: 1.2; font-weight: 400;} 
+.para22{ font-size: var(--font-22); line-height: 1.2; font-weight: 400; color:var(--black-clr);}  
+.para28{ font-size: var(--font-28); line-height: 1.3; font-weight: 400; color:var(--black-clr); text-align: center; margin: 1rem 0; text-transform: capitalize;}
+.para21{ font-size: var(--font-21); line-height: 1.2; font-weight: 400; color:var(--black-clr);}
+.para26{ font-size: var(--font-26); line-height: 2.5; font-weight: 500; color:var(--black-clr);}
+
+.container{max-width: 1395px; width: 80%; margin: 0 auto;}
+.sm-container{max-width: 1236px; width: 90%; margin: 0 auto;}
+.md-container{max-width: 1343px; width: 90%; margin: 0 auto;}
+.lg-container{max-width: 1820px; width: 94%;margin: 0 auto;}
+.home-container{max-width:1493px ; width: 90%; margin: 0 auto;}
+.contact-container{max-width: 1184px; width: 65%; margin: 0 auto;}
+.xxl-container{max-width: 1838px; width: 90%; margin: 0 auto;}
+
+.white-clr{background-color:var( --white-clr)}
+.black-clr{background-color:var(--black-clr)}
+.blue-clr{background-color:var(--blue-clr)}
+.green-clr{background-color:var(--green-clr)}
+.purple-clr{background-color:var(--purple-clr)}
+.light-orange-clr{background-color:var(--light-orange-clr)}
+.yellow-clr{background-color:var(--yellow-clr)}
+.light-blue-clr{background-color:var(--light-blue-clr)}
+.dark-orange-clr{background-color:var(--dark-orange-clr)}
+.navy-blue-clr{background-color:var(--navy-blue-clr)}
+.red-clr{background-color:var(--red-clr)}
+.light-green-clr{background-color: var(--light-green-clr);}
+.tr-bg-clr{background-color: var(--tr-bg-clr);}
