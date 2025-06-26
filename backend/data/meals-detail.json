@@ -1,0 +1,470 @@
+[
+    {
+  "id": "1",
+  "name": "Mac & Cheese",
+  "price": "8.99",
+  "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
+  "image": "images/mac-and-cheese.jpg",
+  "ingredients": [
+    "Macaroni pasta",
+    "Cheddar cheese",
+    "Milk",
+    "Butter",
+    "Breadcrumbs",
+    "Salt",
+    "Pepper"
+  ],
+  "nutrition": {
+    "calories": 550,
+    "protein": "18g",
+    "fat": "25g",
+    "carbs": "60g"
+  },
+  "preparationTime": "25 minutes"
+},
+{
+  "id": "m2",
+  "name": "Margherita Pizza",
+  "price": "12.99",
+  "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
+  "image": "images/margherita-pizza.jpg",
+  "ingredients": [
+    "Pizza dough",
+    "Fresh mozzarella",
+    "Tomatoes",
+    "Basil leaves",
+    "Olive oil",
+    "Salt"
+  ],
+  "nutrition": {
+    "calories": 720,
+    "protein": "22g",
+    "fat": "30g",
+    "carbs": "85g"
+  },
+  "preparationTime": "30 minutes"
+},
+
+{
+  "id": "m3",
+  "name": "Caesar Salad",
+  "price": "7.99",
+  "description": "Romaine lettuce tossed in Caesar dressing, topped with croutons and parmesan shavings.",
+  "image": "images/caesar-salad.jpg",
+  "ingredients": [
+    "Romaine lettuce",
+    "Caesar dressing",
+    "Croutons",
+    "Parmesan cheese",
+    "Lemon juice",
+    "Anchovy paste"
+  ],
+  "nutrition": {
+    "calories": 320,
+    "protein": "10g",
+    "fat": "22g",
+    "carbs": "18g"
+  },
+  "preparationTime": "15 minutes"
+},
+{
+  "id": "m4",
+  "name": "Spaghetti Carbonara",
+  "price": "10.99",
+  "description": "Al dente spaghetti with a creamy sauce made from egg yolk, pecorino cheese, pancetta, and pepper.",
+  "image": "images/spaghetti-carbonara.jpg",
+  "ingredients": [
+    "Spaghetti",
+    "Egg yolks",
+    "Pecorino Romano cheese",
+    "Pancetta",
+    "Black pepper",
+    "Salt"
+  ],
+  "nutrition": {
+    "calories": 650,
+    "protein": "23g",
+    "fat": "28g",
+    "carbs": "70g"
+  },
+  "preparationTime": "25 minutes"
+},
+
+{
+  "id": "m5",
+  "name": "Veggie Burger",
+  "price": "9.99",
+  "description": "A juicy veggie patty served on a whole grain bun with lettuce, tomato, and a tangy sauce.",
+  "image": "images/veggie-burger.jpg",
+  "ingredients": [
+    "Veggie patty (black beans, chickpeas, or lentils)",
+    "Whole grain bun",
+    "Lettuce",
+    "Tomato",
+    "Tangy sauce",
+    "Pickles"
+  ],
+  "nutrition": {
+    "calories": 480,
+    "protein": "16g",
+    "fat": "18g",
+    "carbs": "58g"
+  },
+  "preparationTime": "20 minutes"
+},
+{
+  "id": "m6",
+  "name": "Grilled Chicken Sandwich",
+  "price": "10.99",
+  "description": "Tender grilled chicken breast with avocado, bacon, lettuce, and honey mustard on a toasted bun.",
+  "image": "images/grilled-chicken-sandwich.jpg",
+  "ingredients": [
+    "Grilled chicken breast",
+    "Toasted bun",
+    "Avocado",
+    "Bacon",
+    "Lettuce",
+    "Honey mustard sauce"
+  ],
+  "nutrition": {
+    "calories": 580,
+    "protein": "35g",
+    "fat": "28g",
+    "carbs": "45g"
+  },
+  "preparationTime": "30 minutes"
+},
+
+{
+  "id": "m7",
+  "name": "Steak Frites",
+  "price": "17.99",
+  "description": "Succulent steak cooked to your preference, served with crispy golden fries and herb butter.",
+  "image": "images/steak-frites.jpg",
+  "ingredients": [
+    "Beef steak",
+    "Potatoes (for fries)",
+    "Herb butter",
+    "Salt",
+    "Pepper",
+    "Vegetable oil"
+  ],
+  "nutrition": {
+    "calories": 800,
+    "protein": "40g",
+    "fat": "45g",
+    "carbs": "60g"
+  },
+  "preparationTime": "40 minutes"
+},
+
+{
+  "id": "m8",
+  "name": "Sushi Roll Platter",
+  "price": "15.99",
+  "description": "An assortment of fresh sushi rolls including California, Spicy Tuna, and Eel Avocado.",
+  "image": "images/sushi-roll-platter.jpg",
+  "ingredients": [
+    "Sushi rice",
+    "Nori (seaweed)",
+    "Avocado",
+    "Tuna",
+    "Eel",
+    "Cucumber",
+    "Soy sauce",
+    "Wasabi"
+  ],
+  "nutrition": {
+    "calories": 450,
+    "protein": "20g",
+    "fat": "12g",
+    "carbs": "65g"
+  },
+  "preparationTime": "35 minutes"
+},
+
+{
+  "id": "m9",
+  "name": "Chicken Curry",
+  "price": "13.99",
+  "description": "Tender pieces of chicken simmered in a rich and aromatic curry sauce, served with basmati rice.",
+  "image": "images/chicken-curry.jpg",
+  "ingredients": [
+    "Chicken",
+    "Onions",
+    "Tomatoes",
+    "Ginger-garlic paste",
+    "Spices (turmeric, garam masala, chili powder)",
+    "Cream or yogurt",
+    "Basmati rice"
+  ],
+  "nutrition": {
+    "calories": 620,
+    "protein": "30g",
+    "fat": "28g",
+    "carbs": "55g"
+  },
+  "preparationTime": "45 minutes"
+},
+
+{
+  "id": "m10",
+  "name": "Vegan Buddha Bowl",
+  "price": "11.99",
+  "description": "A hearty bowl filled with quinoa, roasted veggies, avocado, and a tahini dressing.",
+  "image": "images/vegan-buddha-bowl.jpg",
+  "ingredients": [
+    "Quinoa",
+    "Avocado",
+    "Roasted vegetables (carrots, broccoli, sweet potatoes)",
+    "Chickpeas",
+    "Tahini dressing",
+    "Lemon juice"
+  ],
+  "nutrition": {
+    "calories": 500,
+    "protein": "15g",
+    "fat": "22g",
+    "carbs": "60g"
+  },
+  "preparationTime": "30 minutes"
+},
+{
+  "id": "m11",
+  "name": "Seafood Paella",
+  "price": "19.99",
+  "description": "A Spanish delicacy filled with saffron-infused rice, shrimp, mussels, and chorizo.",
+  "image": "images/seafood-paella.jpg",
+  "ingredients": [
+    "Short-grain rice",
+    "Saffron",
+    "Shrimp",
+    "Mussels",
+    "Chorizo",
+    "Bell peppers",
+    "Garlic",
+    "Olive oil"
+  ],
+  "nutrition": {
+    "calories": 750,
+    "protein": "35g",
+    "fat": "30g",
+    "carbs": "80g"
+  },
+  "preparationTime": "50 minutes"
+},
+{
+  "id": "m12",
+  "name": "Pancake Stack",
+  "price": "8.99",
+  "description": "Fluffy pancakes stacked high, drizzled with maple syrup and topped with fresh berries.",
+  "image": "images/pancake-stack.jpg",
+  "ingredients": [
+    "All-purpose flour",
+    "Milk",
+    "Eggs",
+    "Baking powder",
+    "Butter",
+    "Maple syrup",
+    "Mixed berries"
+  ],
+  "nutrition": {
+    "calories": 600,
+    "protein": "12g",
+    "fat": "20g",
+    "carbs": "90g"
+  },
+  "preparationTime": "25 minutes"
+},
+
+{
+  "id": "m13",
+  "name": "Miso Ramen",
+  "price": "12.99",
+  "description": "A warming bowl of ramen with miso broth, tender pork, soft-boiled egg, and green onions.",
+  "image": "images/miso-ramen.jpg",
+  "ingredients": [
+    "Ramen noodles",
+    "Miso paste",
+    "Pork belly",
+    "Soy sauce",
+    "Soft-boiled egg",
+    "Green onions",
+    "Garlic",
+    "Ginger"
+  ],
+  "nutrition": {
+    "calories": 670,
+    "protein": "28g",
+    "fat": "30g",
+    "carbs": "65g"
+  },
+  "preparationTime": "35 minutes"
+},
+
+{
+  "id": "m14",
+  "name": "Beef Tacos",
+  "price": "9.99",
+  "description": "Three soft tortillas filled with seasoned beef, fresh salsa, cheese, and sour cream.",
+  "image": "images/beef-tacos.jpg",
+  "ingredients": [
+    "Soft tortillas",
+    "Ground beef",
+    "Taco seasoning",
+    "Cheddar cheese",
+    "Sour cream",
+    "Salsa",
+    "Lettuce"
+  ],
+  "nutrition": {
+    "calories": 540,
+    "protein": "24g",
+    "fat": "28g",
+    "carbs": "45g"
+  },
+  "preparationTime": "20 minutes"
+},
+{
+  "id": "m15",
+  "name": "Chocolate Brownie",
+  "price": "5.99",
+  "description": "A rich and fudgy brownie, topped with a scoop of vanilla ice cream and chocolate sauce.",
+  "image": "images/chocolate-brownie.jpg",
+  "ingredients": [
+    "Dark chocolate",
+    "Butter",
+    "Sugar",
+    "Eggs",
+    "Flour",
+    "Vanilla ice cream",
+    "Chocolate sauce"
+  ],
+  "nutrition": {
+    "calories": 620,
+    "protein": "6g",
+    "fat": "32g",
+    "carbs": "75g"
+  },
+  "preparationTime": "30 minutes"
+},
+{
+  "id": "m16",
+  "name": "Lobster Bisque",
+  "price": "14.99",
+  "description": "A creamy soup made from lobster stock, aromatic vegetables, and a touch of brandy.",
+  "image": "images/lobster-bisque.jpg",
+  "ingredients": [
+    "Lobster meat",
+    "Lobster stock",
+    "Onions",
+    "Carrots",
+    "Celery",
+    "Heavy cream",
+    "Brandy",
+    "Butter"
+  ],
+  "nutrition": {
+    "calories": 480,
+    "protein": "20g",
+    "fat": "30g",
+    "carbs": "25g"
+  },
+  "preparationTime": "40 minutes"
+},
+
+{
+  "id": "m17",
+  "name": "Mushroom Risotto",
+  "price": "13.99",
+  "description": "Creamy Arborio rice cooked with a medley of wild mushrooms and finished with parmesan.",
+  "image": "images/mushroom-risotto.jpg",
+  "ingredients": [
+    "Arborio rice",
+    "Mushrooms",
+    "Onions",
+    "Garlic",
+    "Vegetable broth",
+    "Parmesan cheese",
+    "Butter",
+    "Olive oil"
+  ],
+  "nutrition": {
+    "calories": 540,
+    "protein": "14g",
+    "fat": "18g",
+    "carbs": "70g"
+  },
+  "preparationTime": "35 minutes"
+},
+{
+  "id": "m18",
+  "name": "Eggplant Parmesan",
+  "price": "11.99",
+  "description": "Layers of breaded eggplant, marinara sauce, and melted mozzarella and parmesan cheeses.",
+  "image": "images/eggplant-parmesan.jpg",
+  "ingredients": [
+    "Eggplant",
+    "Breadcrumbs",
+    "Mozzarella cheese",
+    "Parmesan cheese",
+    "Marinara sauce",
+    "Eggs",
+    "Olive oil"
+  ],
+  "nutrition": {
+    "calories": 620,
+    "protein": "20g",
+    "fat": "30g",
+    "carbs": "60g"
+  },
+  "preparationTime": "45 minutes"
+},
+
+{
+  "id": "m19",
+  "name": "Lemon Cheesecake",
+  "price": "6.99",
+  "description": "A creamy cheesecake with a tangy lemon flavor, served on a crumbly biscuit base.",
+  "image": "images/lemon-cheesecake.jpg",
+  "ingredients": [
+    "Cream cheese",
+    "Sugar",
+    "Eggs",
+    "Lemon zest",
+    "Lemon juice",
+    "Graham cracker crumbs",
+    "Butter"
+  ],
+  "nutrition": {
+    "calories": 550,
+    "protein": "8g",
+    "fat": "35g",
+    "carbs": "50g"
+  },
+  "preparationTime": "60 minutes (plus chilling time)"
+},
+{
+  "id": "m20",
+  "name": "Falafel Wrap",
+  "price": "8.99",
+  "description": "Crispy falafels wrapped in a warm pita with lettuce, tomatoes, and a tahini sauce.",
+  "image": "images/falafel-wrap.jpg",
+  "ingredients": [
+    "Falafel",
+    "Pita bread",
+    "Lettuce",
+    "Tomatoes",
+    "Tahini sauce",
+    "Cucumber"
+  ],
+  "nutrition": {
+    "calories": 520,
+    "protein": "15g",
+    "fat": "22g",
+    "carbs": "55g"
+  },
+  "preparationTime": "30 minutes"
+}
+
+]
