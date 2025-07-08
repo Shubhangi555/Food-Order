@@ -123,7 +123,3 @@ Made with ❤️ using React & Framer Motion
 
 ```
 
----
-
-Let me know if you'd like to add badges (e.g., `Vercel Deploy`, `MIT License`, etc.), a live preview link, or a demo GIF!
-```
