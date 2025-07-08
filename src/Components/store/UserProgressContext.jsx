@@ -23,15 +23,25 @@ function showCheckout(){
 }
 
 function hideCheckout(){
-    setUserProgress("")
+    setUserProgress("");
 }
 
+function hideWishlist(){
+    setUserProgress("");
+} 
+
+function showWishlist(){
+    setUserProgress("wishlist")
+} 
 const userProgressCtx= {
     progress: userProgress,
     showCart,
     hideCart,
     showCheckout,
-    hideCheckout
+    hideCheckout,
+    hideWishlist,
+    showWishlist
+    
 }
 
     return <UserProgressContext.Provider value={userProgressCtx}>{children}</UserProgressContext.Provider>

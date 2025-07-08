@@ -3,6 +3,7 @@ import gallery01 from "../assets/gallery01.jpg";
 import gallery02 from "../assets/gallery02.jpg";
 import gallery03 from "../assets/gallery03.jpg";
 import { Autoplay, Navigation, } from "swiper/modules";
+import { motion } from "framer-motion";
 
 
 export default function FoodGallery() {
@@ -29,11 +30,33 @@ export default function FoodGallery() {
                         prevEl: ".swiper-button-prev"
                     }}
                     loop={true}
+                      breakpoints={{
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
+              480: {
+                slidesPerView: 1,
+                spaceBetween: 15,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 25,
+              },
+              1280: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+              },
+            }}
                 >
 
                     {galleryImages.map((gallery) => (
                         <SwiperSlide key={gallery.id}>
-                            <img className="gallery-img" src={gallery.image} />
+                            <motion.img whileHover={{scale:1.01}} className="gallery-img" src={gallery.image} />
                         </SwiperSlide>
                     ))}
 

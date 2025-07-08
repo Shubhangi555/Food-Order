@@ -1,11 +1,18 @@
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import MealItem from "./MealItem";
 import Button from "./UI/Button.jsx";
+import { motion } from "framer-motion";
+
+
 
 export default function Meals() {
+
   const [loadedMeals, setLoadedMeals] = useState([]);
   const [visibleCount, setVisibleCount] = useState(4);
+
+
+
 
   useEffect(() => {
     async function fetchMeals() {
@@ -35,15 +42,26 @@ export default function Meals() {
 
   return (
     <>
-    
-    <div className="container">
-        <h2 className="heading02">What's Cooking ?</h2>
-    </div>
-      <ul id="meals">
+
+      <div className="container">
+        <motion.h2  initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
+            viewport={{ once: false }} className="heading02">What's Cooking ?</motion.h2>
+      </div>
+      <motion.ul
+        id="meals">
         {visibleMeals.map((meal) => (
-          <MealItem key={meal.id} meal={meal} />
+          <motion.li key={meal.id}
+            className="meal-item"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true, amount: 0.3 }} >
+            <MealItem meal={meal} />
+          </motion.li>
         ))}
-      </ul>
+      </motion.ul>
 
       {loadedMeals.length > 4 && (
         <div style={{ textAlign: "center", marginTop: "1rem" }}>

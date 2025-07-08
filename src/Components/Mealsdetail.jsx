@@ -2,6 +2,9 @@ import { useContext } from "react";
 import { currencyFormatter } from "../util/formatting";
 import Button from "./UI/Button";
 import CartContext from "./store/cartContext";
+import { FaBackspace, FaBackward } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
 
 export default function Mealsdetail({ meal }) {
     const cartCtx = useContext(CartContext);
@@ -10,9 +13,11 @@ export default function Mealsdetail({ meal }) {
         cartCtx.addItem(meal)
     }
 
-    return <div className="meal-item meal-detail">
+    return <div className="meal-detail">
+        <div className="container">
+       <Link to="/"><FaBackward style={{color:"#000"}}/></Link> 
         <article>
-            <img src={`http://localhost:3000/${meal.image}`} alt={meal.name} />
+            <img src={`${meal.image}`} alt={meal.name} />
             <div>
                 <h3>{meal.name}</h3>
                 <p className="meal-item-price">{currencyFormatter.format(meal.price)}</p>
@@ -44,4 +49,7 @@ export default function Mealsdetail({ meal }) {
             </div>
         </article>
     </div>
+   
+    </div>
+   
 }

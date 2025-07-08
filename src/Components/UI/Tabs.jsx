@@ -2,7 +2,7 @@
 export default function Tabs({ buttons, children }) {
   return (
     <div>
-      <div style={{ display: "flex", gap: "10px", marginBottom: "20px" }}>
+      <div style={{ display: "flex", gap: "10px", marginBottom: "20px" , overflow:"auto"}}>
         {buttons}
       </div>
       <div>{children}</div>
