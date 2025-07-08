@@ -21,18 +21,24 @@ export default function CategoryPage() {
   }, [catId]);
 
   return (
+    <>
     <div className="container">
-      <h2 className="heading02">Category: {catId.replace("cat", "")}</h2>
-
+     <h2 className="heading02">Delicious {catId.replace("cat", "")} Options Await!!!</h2>
+</div>
       {categoryMeals.length === 0 ? (
         <p>No meals found in this category.</p>
       ) : (
+        
         <ul id="meals">
+         
           {categoryMeals.map((meal) => (
+             <li className="meal-item">
             <MealItem key={meal.id} meal={meal} />
+             </li>
           ))}
+         
         </ul>
       )}
-    </div>
+    </>
   );
 }
