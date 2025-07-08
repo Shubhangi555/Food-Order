@@ -97,7 +97,8 @@ npm run build
 ## 📸 Screenshots
 
 > *Add screenshots here (drag & drop in Markdown)*
-![burger-text](https://github.com/user-attachments/assets/26089305-8545-449a-8c6d-b85316d65283)
+> Banner Slider
+![image](https://github.com/user-attachments/assets/5c0577bc-bfb0-4181-9e37-593a93b4d09e)
 
 ---
 
