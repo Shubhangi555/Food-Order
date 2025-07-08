@@ -2,15 +2,15 @@
   {
     "id": "m1",
     "name": "Mac & Cheese",
-    "price": "8.99",
+    "price": 8.99,
     "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
     "image": "images/mac-and-cheese.jpg",
-    "category":"pizza"
+    "category":"pasta"
   },
   {
     "id": "m2",
     "name": "Margherita Pizza",
-    "price": "12.99",
+    "price": 12.99,
     "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
     "image": "images/margherita-pizza.jpg",
     "category":"pizza"
@@ -18,129 +18,413 @@
   {
     "id": "m3",
     "name": "Caesar Salad",
-    "price": "7.99",
+    "price": 7.99,
     "description": "Romaine lettuce tossed in Caesar dressing, topped with croutons and parmesan shavings.",
     "image": "images/caesar-salad.jpg",
-    "category":"pizza"
+    "category":"salad"
   },
   {
     "id": "m4",
     "name": "Spaghetti Carbonara",
-    "price": "10.99",
+    "price": 10.99,
     "description": "Al dente spaghetti with a creamy sauce made from egg yolk, pecorino cheese, pancetta, and pepper.",
     "image": "images/spaghetti-carbonara.jpg",
-    "category":"pizza"
+    "category":"noodles"
   },
   {
     "id": "m5",
     "name": "Veggie Burger",
-    "price": "9.99",
+    "price": 9.99,
     "description": "A juicy veggie patty served on a whole grain bun with lettuce, tomato, and a tangy sauce.",
-    "image": "images/veggie-burger.jpg"
+    "image": "images/veggie-burger.jpg",
+    "category": "burger"
   },
   {
     "id": "m6",
     "name": "Grilled Chicken Sandwich",
-    "price": "10.99",
+    "price": 10.99,
     "description": "Tender grilled chicken breast with avocado, bacon, lettuce, and honey mustard on a toasted bun.",
-    "image": "images/grilled-chicken-sandwich.jpg"
+    "image": "images/grilled-chicken-sandwich.jpg",
+    "category": "sandwich"
   },
   {
     "id": "m7",
     "name": "Steak Frites",
-    "price": "17.99",
+    "price": 17.99,
     "description": "Succulent steak cooked to your preference, served with crispy golden fries and herb butter.",
-    "image": "images/steak-frites.jpg"
+    "image": "images/steak-frites.jpg",
+    "category": "steak"
   },
   {
     "id": "m8",
     "name": "Sushi Roll Platter",
-    "price": "15.99",
+    "price": 15.99,
     "description": "An assortment of fresh sushi rolls including California, Spicy Tuna, and Eel Avocado.",
-    "image": "images/sushi-roll-platter.jpg"
+    "image": "images/sushi-roll-platter.jpg",
+    "category": "rolls"
   },
   {
     "id": "m9",
     "name": "Chicken Curry",
-    "price": "13.99",
+    "price": 13.99,
     "description": "Tender pieces of chicken simmered in a rich and aromatic curry sauce, served with basmati rice.",
     "image": "images/chicken-curry.jpg"
   },
   {
     "id": "m10",
     "name": "Vegan Buddha Bowl",
-    "price": "11.99",
+    "price": 11.99,
     "description": "A hearty bowl filled with quinoa, roasted veggies, avocado, and a tahini dressing.",
     "image": "images/vegan-buddha-bowl.jpg"
   },
   {
     "id": "m11",
     "name": "Seafood Paella",
-    "price": "19.99",
+    "price": 19.99,
     "description": "A Spanish delicacy filled with saffron-infused rice, shrimp, mussels, and chorizo.",
     "image": "images/seafood-paella.jpg"
   },
   {
     "id": "m12",
     "name": "Pancake Stack",
-    "price": "8.99",
+    "price": 8.99,
     "description": "Fluffy pancakes stacked high, drizzled with maple syrup and topped with fresh berries.",
     "image": "images/pancake-stack.jpg"
   },
   {
     "id": "m13",
     "name": "Miso Ramen",
-    "price": "12.99",
+    "price": 12.99,
     "description": "A warming bowl of ramen with miso broth, tender pork, soft-boiled egg, and green onions.",
     "image": "images/miso-ramen.jpg"
   },
   {
     "id": "m14",
     "name": "Beef Tacos",
-    "price": "9.99",
+    "price": 9.99,
     "description": "Three soft tortillas filled with seasoned beef, fresh salsa, cheese, and sour cream.",
     "image": "images/beef-tacos.jpg"
   },
   {
     "id": "m15",
     "name": "Chocolate Brownie",
-    "price": "5.99",
+    "price": 5.99,
     "description": "A rich and fudgy brownie, topped with a scoop of vanilla ice cream and chocolate sauce.",
     "image": "images/chocolate-brownie.jpg"
   },
   {
     "id": "m16",
     "name": "Lobster Bisque",
-    "price": "14.99",
+    "price": 14.99,
     "description": "A creamy soup made from lobster stock, aromatic vegetables, and a touch of brandy.",
     "image": "images/lobster-bisque.jpg"
   },
   {
     "id": "m17",
     "name": "Mushroom Risotto",
-    "price": "13.99",
+    "price": 13.99,
     "description": "Creamy Arborio rice cooked with a medley of wild mushrooms and finished with parmesan.",
     "image": "images/mushroom-risotto.jpg"
   },
   {
     "id": "m18",
     "name": "Eggplant Parmesan",
-    "price": "11.99",
+    "price": 11.99,
     "description": "Layers of breaded eggplant, marinara sauce, and melted mozzarella and parmesan cheeses.",
     "image": "images/eggplant-parmesan.jpg"
   },
   {
     "id": "m19",
     "name": "Lemon Cheesecake",
-    "price": "6.99",
+    "price": 6.99,
     "description": "A creamy cheesecake with a tangy lemon flavor, served on a crumbly biscuit base.",
     "image": "images/lemon-cheesecake.jpg"
   },
   {
     "id": "m20",
     "name": "Falafel Wrap",
-    "price": "8.99",
+    "price": 8.99,
     "description": "Crispy falafels wrapped in a warm pita with lettuce, tomatoes, and a tahini sauce.",
     "image": "images/falafel-wrap.jpg"
+  },
+   {
+    "id": "pizza1",
+    "name": "pizza filled with tomatoes salami olives",
+    "price": 8.99,
+    "description": "pizza-pizza-filled-with-tomatoes-salami-olives",
+    "image": "images/pizza1.jpg",
+    "category":"pizza"
+  },
+   {
+    "id": "pizza2",
+    "name": "mixed-pizza-with-various-ingridients",
+    "price": 8.99,
+    "description": "mixed-pizza-with-various-ingridients",
+    "image": "images/pizza2.jpg",
+    "category":"pizza"
+  },
+   {
+    "id": "pizza3",
+    "name": "crispy-mixed-pizza-with-olives-sausage",
+    "price": 9,
+    "description": "crispy-mixed-pizza-with-olives-sausage",
+    "image": "images/pizza3.jpg",
+    "category":"pizza"
+  },
+  {
+    "id": "salad1",
+    "name": "Greek salad",
+    "image": "images/salad1.png",
+    "price": 12,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "salad"
+  },
+  {
+    "id": "salad2",
+    "name": "Veg salad",
+    "image": "images/salad2.png",
+    "price": 18,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "salad"
+  },
+  {
+    "id": "salad3",
+    "name": "Clover Salad",
+    "image": "images/salad3.png",
+    "price": 16,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "salad"
+  },
+  {
+    "id": "salad4",
+    "name": "Chicken Salad",
+    "image": "images/salad4.png",
+    "price": 24,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "salad"
+  },
+  {
+    "id": "5",
+    "name": "Lasagna Rolls",
+    "image": "images/rolls1.png",
+    "price": 14,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "rolls"
+  },
+  {
+    "id": "6",
+    "name": "Peri Peri Rolls",
+    "image": "images/rolls2.png",
+    "price": 12,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "rolls"
+  },
+  {
+    "id": "7",
+    "name": "Chicken Rolls",
+    "image": "images/rolls3.png",
+    "price": 20,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "rolls"
+  },
+  {
+    "id": "8",
+    "name": "Veg Rolls",
+    "image": "images/rolls4.png",
+    "price": 15,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "rolls"
+  },
+  {
+    "id": "9",
+    "name": "Ripple Ice Cream",
+    "image": "images/deserts1.png",
+    "price": 14,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "deserts"
+  },
+  {
+    "id": "10",
+    "name": "Fruit Ice Cream",
+    "image": "images/deserts2.png",
+    "price": 22,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "deserts"
+  },
+  {
+    "id": "11",
+    "name": "Jar Ice Cream",
+    "image": "images/deserts3.png",
+    "price": 10,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "deserts"
+  },
+  {
+    "id": "12",
+    "name": "Vanilla Ice Cream",
+    "image": "images/deserts4.png",
+    "price": 12,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "deserts"
+  },
+  {
+    "id": "13",
+    "name": "Chicken Sandwich",
+    "image": "images/sandwich1.png",
+    "price": 12,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "sandwich"
+  },
+  {
+    "id": "14",
+    "name": "Vegan Sandwich",
+    "image": "images/sandwich2.png",
+    "price": 18,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "sandwich"
+  },
+  {
+    "id": "15",
+    "name": "Grilled Sandwich",
+    "image": "images/sandwich3.png",
+    "price": 16,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "sandwich"
+  },
+  {
+    "id": "16",
+    "name": "Bread Sandwich",
+    "image": "images/sandwich4.png",
+    "price": 24,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "sandwich"
+  },
+  {
+    "id": "17",
+    "name": "Cup Cake",
+    "image": "images/cake1.png",
+    "price": 14,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "cake"
+  },
+  {
+    "id": "18",
+    "name": "Vegan Cake",
+    "image": "images/cake2.png",
+    "price": 12,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "cake"
+  },
+  {
+    "id": "19",
+    "name": "Butterscotch Cake",
+    "image": "images/cake3.png",
+    "price": 20,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "cake"
+  },
+  {
+    "id": "20",
+    "name": "Sliced Cake",
+    "image": "images/cake4.png",
+    "price": 15,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "cake"
+  },
+  {
+    "id": "21",
+    "name": "Garlic Mushroom",
+    "image": "images/pureveg1.png",
+    "price": 14,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "pureveg"
+  },
+  {
+    "id": "22",
+    "name": "Fried Cauliflower",
+    "image": "images/pureveg2.png",
+    "price": 22,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "pureveg"
+  },
+  {
+    "id": "23",
+    "name": "Mix Veg Pulao",
+    "image": "images/pureveg3.png",
+    "price": 10,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "pureveg"
+  },
+  {
+    "id": "24",
+    "name": "Rice Zucchini",
+    "image": "images/pureveg4.png",
+    "price": 12,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "pureveg"
+  },
+  {
+    "id": "25",
+    "name": "Cheese Pasta",
+    "image": "images/pasta1.png",
+    "price": 12,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "pasta"
+  },
+  {
+    "id": "26",
+    "name": "Tomato Pasta",
+    "image": "images/pasta2.png",
+    "price": 18,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "pasta"
+  },
+  {
+    "id": "27",
+    "name": "Creamy Pasta",
+    "image": "images/pasta3.png",
+    "price": 16,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "pasta"
+  },
+  {
+    "id": "28",
+    "name": "Chicken Pasta",
+    "image": "images/pasta4.png",
+    "price": 24,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "pasta"
+  },
+  {
+    "id": "29",
+    "name": "Buttter Noodles",
+    "image": "images/noodles1.png",
+    "price": 14,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "noodles"
+  },
+  {
+    "id": "30",
+    "name": "Veg Noodles",
+    "image": "images/noodles2.png",
+    "price": 12,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "noodles"
+  },
+  {
+    "id": "31",
+    "name": "Somen Noodles",
+    "image": "images/noodles3.png",
+    "price": 20,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "noodles"
+  },
+  {
+    "id": "32",
+    "name": "Cooked Noodles",
+    "image": "images/noodles4.png",
+    "price": 15,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "noodles"
   }
 ]
