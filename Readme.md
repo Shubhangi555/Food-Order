@@ -97,6 +97,7 @@ npm run build
 ## 📸 Screenshots
 
 > *Add screenshots here (drag & drop in Markdown)*
+![burger-text](https://github.com/user-attachments/assets/26089305-8545-449a-8c6d-b85316d65283)
 
 ---
 
