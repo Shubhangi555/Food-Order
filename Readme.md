@@ -96,9 +96,29 @@ npm run build
 
 ## 📸 Screenshots
 
-> *Add screenshots here (drag & drop in Markdown)*
-> Banner Slider
+### Banner Slider
 ![image](https://github.com/user-attachments/assets/5c0577bc-bfb0-4181-9e37-593a93b4d09e)
+
+### Categories Section
+![image](https://github.com/user-attachments/assets/f247d17e-d486-490c-85cb-e68fb40f969f)
+
+### Meals Listing
+![image](https://github.com/user-attachments/assets/e9b1e37e-dc64-44ac-bbc5-f209e8f4c0a2)
+
+### Hot Delicious Item
+![image](https://github.com/user-attachments/assets/1b7e291f-2a82-4901-b266-517dd4627eff)
+
+### Food Gallery
+![image](https://github.com/user-attachments/assets/684694df-8303-479f-bca8-86b6484e21a5)
+
+### Delivery Challenge
+![image](https://github.com/user-attachments/assets/daa9e875-0965-4c23-a7ef-551f5228f442)
+
+### Our Services 
+![image](https://github.com/user-attachments/assets/d6b5eb3d-e4b0-4ecb-bbb5-a526d0c77d8f)
+
+### Footer
+![image](https://github.com/user-attachments/assets/a13fe00a-2f90-47fe-9500-1d720c66ea65)
 
 ---
 
