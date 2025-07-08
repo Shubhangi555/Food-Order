@@ -9,7 +9,7 @@ export default function CategoryPage() {
 
   useEffect(() => {
     async function fetchCategoryMeals() {
-      const response = await fetch("http://localhost:3000/meals");
+      const response = await fetch("/meals.json");
       const meals = await response.json();
 
       // Assume each meal has a category ID, like meal.category === 'cat1'
