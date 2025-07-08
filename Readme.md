@@ -1,6 +1,4 @@
----
 
-```md
 # 🍽️ Food Ordering App
 
 This is a responsive React-based food ordering interface where users can browse various meal items and dynamically load more content with a "Show More / Show Less" toggle. The meal data is loaded from a static JSON file for easy deployment and scalability.
