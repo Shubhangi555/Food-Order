@@ -1,5 +1,3 @@
-Sure! Below is the **complete content** for your `README.md` file. You can **copy and paste this as-is** into a new `README.md` file in your project root folder:
-
 ---
 
 ```md
@@ -54,7 +52,7 @@ This is a responsive React-based food ordering interface where users can browse 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/food-ordering-app.git
+git clone https://github.com/shubhangi555/Reactjs-Food-Order-Application.git
 cd food-ordering-app
 ````
 
