@@ -14,12 +14,14 @@ import Categories from './Components/Categories';
 import Home from './Pages/Home';
 import Layout from './Pages/Layout';
 import CategoryPage from './Pages/CategoryPage';
+import { WishlistContextProvider } from './Components/store/WishlistContext';
 
 export default function App() {
   return (
     <>
     <UserProgressContextProvider>
       <CartContextProvider>
+        <WishlistContextProvider>
       
         <Routes>
           <Route path="/" element={<Layout/>} >
@@ -32,7 +34,7 @@ export default function App() {
           </Route>
         </Routes>
   
-      
+      </WishlistContextProvider>
       </CartContextProvider>
       </UserProgressContextProvider>
     </>

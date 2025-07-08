@@ -1,5 +1,14 @@
 @media only screen and (max-width: 1700px) {
-    /* 1600 */ }
+    /* 1600 */
+
+    .categories-section .swiper-button-next{    right: 6%;}
+    .categories-section .swiper-button-prev {
+    left: 6%;
+}
+.swiper-button-next{right: 7%;}
+.swiper-button-prev{left: 7%;}
+
+}
 
 
 @media only screen and (max-width: 1500px) {
@@ -18,6 +27,7 @@
 .food-gallery-section .swiper-button-next {
     font-size: 45px;
     right: 8%;}
+    .delivery-man{right: 18%;}
 }
 
 
@@ -29,4 +39,19 @@
     /* 768 */  }
 
 @media only screen and (max-width: 700px) {
-    /* 360 */ }
+    /* 360 */ 
+    .hotitem-grid{grid-template-columns: 100%;}
+    h1{font-size: 1rem;}
+    #main-header button{font-size: 1rem;}
+    #main-header #title img{width: 2rem; height: 2rem;}
+    #main-header{padding: 1rem 3%;}
+    #main-header #title{gap: 0.5rem;}
+    .swiper-content .swiper-flex{grid-template-columns: 1fr;}
+    .container{width: 90%;}
+    .food-gallery-section .swiper-button-prev {
+    font-size: 35px;}
+.food-gallery-section .swiper-button-next {
+    font-size: 35px;}
+    .service-row-grid{grid-template-columns: 1fr 1fr;}
+    .service-section{padding: 20px;}
+}
